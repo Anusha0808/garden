@@ -1,5 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Anuzrella's Garden
 ---
 HI!
-This is Anuzrella's Garden/Pond/ something
+This is Anuzrella's Garden/Pond/something
+
