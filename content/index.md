@@ -4,7 +4,7 @@ tags:
   - introduction
   - garden
 ---
-![[Pasted image 20250531223923.png|100]]
+![[Pasted image 20250531223923.png|200]]
 This is Anusha, and welcome to my little [[Digital Garden]]!
 (and here you can find [[my quirkier non professional introduction]])
 ## my interests
