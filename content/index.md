@@ -4,11 +4,9 @@ tags:
   - introduction
   - garden
 ---
-Hey! 
-Welcome to Anusha's [[Digital Garden]]! 
-Thank you for stumbling upon Anusha's [[Digital Garden]], with a cool [[Pond]]. 
 
-Firstly, I identify myself as a Homo Sapien, and then I go with the pronouns she/her.
+This is Anusha, and welcome to my little [[Digital Garden]]! 
+
 You can also check out [[my quirkier non professional introduction]].
 ## A little bit about myself
 I am a third year student at [[Chennai Mathematical Institute]], and I am doing Bachelors in Mathematics and Theoretical Computer Science.
@@ -17,7 +15,5 @@ India's team for [[European Girls Olympiad in Informatics 2023]], and grabbed a 
 ## My Interests
 I love to explore theoretical Computer Science. 
 I am currently interested and reading about [[Games on Graphs]], [[Proofs and Types]] and [[Graph Theory]].
-Although I do not understand anything about [[Finite Model Theory]] yet,still some of my non-batch friends keep talking about it and it makes me wanna study that too once i am done studying its prerequisites (some of which are the above, I presume).
-
-
+Although I do not understand anything about [[Finite Model Theory]] yet,still some of my friends keep talking about it and it makes me wanna study that too once i am done studying its prerequisites (some of which are the above, I presume).
 
