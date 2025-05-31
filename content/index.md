@@ -4,6 +4,7 @@ tags:
   - introduction
   - garden
 ---
+![image](https://github.com/user-attachments/assets/96b10a42-3e2d-46ad-af99-7587b01a363a)
 
 This is Anusha, and welcome to my little [[Digital Garden]]! 
 
