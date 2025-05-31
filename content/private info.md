@@ -11,8 +11,7 @@ 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
 
 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
 
-
-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 
+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
 new one?
 
 - https://quartz-themes.github.io/primary/
