@@ -1,6 +1,16 @@
 ---
-title: Anuzrella's Garden
+title: Welcome to Anusha's Garden!!
+tags:
+  - introduction
+  - garden
 ---
-HI!
-This is Anuzrella's Garden/Pond/something
+Hey! 
+Welcome to Anusha's [[Digital Garden]]! 
+Thank you for stumbling upon Anusha's [[Digital Garden]], with a cool [[Pond]]. 
+
+Firstly, I identify myself as a Homo Sapien, and then I go with the pronouns she/her.
+You can also check out [[my quirkier non professional introduction]].
+## A little bit about myself
+I am a third year student in [[Chennai Mathematical Institute]], and I am doing Bachelors in Mathematics and Theoretical Computer Science.
+
 

@@ -7,7 +7,7 @@ date:
  
 Themes that I might wanna consider:
 
-ghp_9Ow3u5jKhAzq2oEwXjlhfwNyLS7kj744Euw
+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
 
 - https://quartz-themes.github.io/primary/
 - https://quartz-themes.github.io/allium/
@@ -21,4 +21,10 @@ SO WHAT ALL DO I WANT FROM THIS
 - my virtual cv
 - blogs and thoughts 
 - no personal things yet here
-- 
+
+my virtual cv will include 
+	hyperlinks
+
+I am at my happiest when i am thinking about a problem ( also , unhappiest when I am thinking too much about it )
+
+I am at my happiest when i am thinking about a problem ( also , unhappiest when I am stuck on it for too long :P )

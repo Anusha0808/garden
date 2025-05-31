@@ -1,11 +1,10 @@
 ---
 longform:
   format: scenes
-  title: Testing
+  title: atoms
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - Introduction
-  sceneTemplate: templates/chapter.md
+    - Digital Garden
   ignoredFiles: []
 ---
