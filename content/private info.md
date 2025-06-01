@@ -7,8 +7,6 @@ date:
  
 Themes that I might wanna consider:
 
-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
-
 - https://quartz-themes.github.io/primary/
 - https://quartz-themes.github.io/allium/
 - https://quartz-themes.github.io/aura/
