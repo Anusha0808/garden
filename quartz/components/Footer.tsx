@@ -24,6 +24,8 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
+        <p style="text-align: center; margin-top: 1em;">🟊 🟊 🟊</p>
+
       </footer>
     )
   }
