@@ -4,4 +4,7 @@ draft: false
 tags:
   - logic
 ---
- 
+> [! faq ] Title
+> hello
+> 
+
