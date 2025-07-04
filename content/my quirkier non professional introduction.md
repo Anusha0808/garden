@@ -11,4 +11,4 @@ I am at my happiest when I am thinking about a problem, also unhappiest when I a
 
 I am an INFJ, which is the rarest personality type according to the MBTI Personality Categorization. 
 
-I was born and brought up in [[Chandigarh]], which makes me a North Indian. Since I am studying in a uni which is in Chennai, South India, I do not get to frequently travel back and forth from Chennai To Chandigarh
+I was born and brought up in [[Chandigarh]], which makes me a North Indian.
