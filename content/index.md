@@ -14,8 +14,7 @@ I am interested in Theoretical Computer Science, and am currently exploring and 
 
 Although I do not understand anything about [[Finite Model Theory]] yet, still some of my friends keep talking about it and it makes me wanna study that too once i am done studying its prerequisites (some of which are the above, I presume).
 
-
-> [!Quote] okay Anusha we get your interests, but why this garden?
+> [!quote] okay Anusha we get your interests, but why this garden?
  _"A throw of seeds."
  Some grow into beautiful bushes with flowers, yielding fruit that others can enjoy, whilst some are left unnurtured._
 
@@ -32,4 +31,4 @@ Before my university, I was [[lost]] and then found by [[Informatics Olympiad]],
 ### Hobbies
 I like to paint and dance! 
 
-finaly changes right now
+changes right now
