@@ -1,55 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-:root{
-    body {
+:@media (prefers-color-scheme: dark) {
+  h1 { color: rgb(255, 145, 145); }
+  h2 { color: rgb(255, 165, 180); }
+  h3 { color: rgb(255, 185, 205); }
+  h4 { color: rgb(210, 175, 255); }
+  h5 { color: rgb(180, 195, 255); }
+  h6 { color: rgb(160, 200, 255); }
 
-        // a.internal {
-        // padding: 2px 10px;
-        // border-radius: 9999px;
-        // font-weight: 500;
-        // color: #9333ea;                // violet text
-        // background-color: #f3e8ff;     // light lavender background
-        // text-decoration: none;
-        // }
-
-        a.internal:hover {
-        transform: scale(1.03);
-        transition: all 0.2s ease;
-        }
-
-        @media (prefers-color-scheme: dark) {
-        a.internal {
-            color: #f3e8ff;
-            background-color: rgba(255, 145, 145, 0.246);   // deep purple background for dark mode
-        }
-        }
-
-        @media (prefers-color-scheme: dark) {
-         h1 {
-        color: rgb(255, 145, 145);
-        }
-
-        h2 {
-        color: rgb(255, 165, 180);
-        }
-
-        h3{
-        color : rgb(255, 185, 205)
-        }
-
-        h4 {
-            color : rgb(210, 175, 255)
-        }
-
-        h5 {
-            color : rgb(180, 195, 255)
-        }
-
-        h6{
-            color : rgb(160, 200, 255)
-        }
-        }
-
-    }
+  a.internal {
+    color: #f3e8ff;
+    background-color: rgba(255, 145, 145, 0.25);
+  }
 }
