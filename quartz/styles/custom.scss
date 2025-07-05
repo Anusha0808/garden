@@ -25,6 +25,13 @@
         }
 
         @media (prefers-color-scheme: dark) {
+        h1, h2, h3, h4, h5, h6{
+            text-align : centre;
+        }
+        h1, h2, h3, h4, h5{
+             border-bottom: 1px solid rgba(255, 255, 255, 0.2); // subtle line
+            margin-bottom: 1rem;
+        }
         h1 { color: rgb(255, 145, 145);}
 
         h2 { color: rgb(255, 165, 180);}
