@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - v4
+env:
+  THEME_NAME: chime
 
 permissions:
   contents: read
