@@ -31,3 +31,5 @@ Before my university, I was [[lost]] and then found by [[Informatics Olympiad]],
 
 ### Hobbies
 I like to paint and dance! 
+
+finaly changes right now
