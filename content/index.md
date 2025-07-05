@@ -20,5 +20,3 @@ Here you are gonna find a collection of random dumps on things that interests me
 I am a third year student at [[Chennai Mathematical Institute]], and I am doing Bachelors in Mathematics and Theoretical Computer Science.
 
 Before my university, I was [[lost]] and then found by [[Informatics Olympiad]], which became my home and niche for roughly a year and a half. During this time, I also got a chance to be in India's team for [[European Girls Olympiad in Informatics 2023]], and grabbed a bronze.
-
-made a change, should reflect yes 
