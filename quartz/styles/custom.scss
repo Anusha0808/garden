@@ -1,3 +1,30 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+h1 {
+  color: #3b0764;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #5b21b6;
+}
+
+.internal.tag-link {
+  color: #9333ea;
+  background-color: #f3e8ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    color: #CD5D67;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: #c084fc;
+  }
+
+  .internal.tag-link {
+    color: #f3e8ff !important;
+    background-color: hsla(295, 76%, 40%, 0.338) !important;
+  }
+}
