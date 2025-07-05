@@ -8,4 +8,4 @@ const AfterBodyStars: QuartzComponent = (_props: QuartzComponentProps) => (
   </div>
 )
 
-export default AfterBodyStars     // 👈 default export is now the component itself
+export default AfterBodyStars // 👈 default export is now the component itself
