@@ -3,18 +3,15 @@
 // put your custom CSS here!
 :root{
     body {
-        // ===============================
-        // 🌸 Custom Wiki-style Link Pills
-        // ===============================
 
-        a.internal {
-        padding: 2px 10px;
-        border-radius: 9999px;
-        font-weight: 500;
-        color: #9333ea;                // violet text
-        background-color: #f3e8ff;     // light lavender background
-        text-decoration: none;
-        }
+        // a.internal {
+        // padding: 2px 10px;
+        // border-radius: 9999px;
+        // font-weight: 500;
+        // color: #9333ea;                // violet text
+        // background-color: #f3e8ff;     // light lavender background
+        // text-decoration: none;
+        // }
 
         a.internal:hover {
         transform: scale(1.03);
@@ -24,31 +21,33 @@
         @media (prefers-color-scheme: dark) {
         a.internal {
             color: #f3e8ff;
-            background-color: #4c1d95;   // deep purple background for dark mode
+            background-color: #831d9595;   // deep purple background for dark mode
         }
-        }
-
-        // ===============================
-        // 🌟 Heading Styling: h1 vs h2+
-        // ===============================
-
-        h1 {
-        color: #3b0764;
-        font-weight: 800;
-        }
-
-        h2, h3, h4, h5, h6 {
-        color: #5b21b6;
-        font-weight: 600;
         }
 
         @media (prefers-color-scheme: dark) {
-        h1 {
-            color: #f9a8d4;
+         h1 {
+        color: rgb(255, 145, 145);
         }
 
-        h2, h3, h4, h5, h6 {
-            color: #c084fc;
+        h2 {
+        color: rgb(255, 165, 180);
+        }
+
+        h3{
+        color : rgb(255, 185, 205)
+        }
+
+        h4 {
+            color : rgb(210, 175, 255)
+        }
+
+        h5 {
+            color : rgb(180, 195, 255)
+        }
+
+        h6{
+            color : rgb(160, 200, 255)
         }
         }
 
