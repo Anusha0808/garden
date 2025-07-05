@@ -21,4 +21,5 @@ I am a third year student at [[Chennai Mathematical Institute]], and I am doing 
 
 Before my university, I was [[lost]] and then found by [[Informatics Olympiad]], which became my home and niche for roughly a year and a half. During this time, I also got a chance to be in India's team for [[European Girls Olympiad in Informatics 2023]], and grabbed a bronze.
 
-Apart from 
+### Hobbies
+I like to paint and dance! 

@@ -3,7 +3,7 @@
 // 🌚 DARK MODE CUSTOM STYLES
 :root[saved-theme="dark"], html[saved-theme="dark"] {
   body {
-    font-family: 'Arima', cursive !important;
+    font-family: 'Inter', sans-serif !important;
   }
 
   a.internal:hover {
@@ -18,11 +18,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
-  }
-
-  h1, h2, h3, h4, h5 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 1rem;
+    font-family: 'Arima', cursive !important;
   }
 
   h1 { color: rgb(255, 145, 145); }
