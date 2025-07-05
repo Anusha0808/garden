@@ -3,7 +3,6 @@ title: Welcome!!
 tags:
   - introduction
   - garden
-date: 30th May, 2025
 ---
 
 This is Anusha, and welcome to my little [[Digital Garden]]!
