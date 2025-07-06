@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Anusha's Garden",
+    pageTitle: "Anusha Gupta",
     pageTitleSuffix: " | Anusha's Garden",
     enableSPA: true,
     enablePopovers: true,
@@ -66,7 +66,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, enableCheckbox: true }),
+      Plugin.ObsidianFlavoredMarkdown({ enableCheckbox: true }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      //Plugin.CustomOgImages(),
+      Plugin.CustomOgImages(),
     ],
   },
 }

@@ -1,5 +1,3 @@
-// components/index.ts
-
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
@@ -25,7 +23,6 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
-import AfterBodyStars from "./AfterBodyStars" // ✅ Import
 
 export {
   ArticleTitle,
@@ -53,5 +50,4 @@ export {
   Comments,
   Flex,
   ConditionalRender,
-  AfterBodyStars, // ✅ Export
 }
