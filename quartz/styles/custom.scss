@@ -134,6 +134,9 @@
 :root[saved-theme="dark"], html[saved-theme="dark"] {
   body {
     font-family: 'Montserrat', sans-serif !important;
+    color: #FFF4EC;
+    font-size: 1.05rem;
+
   }
 
   a.internal:hover {
@@ -142,8 +145,8 @@
   }
 
   a.internal {
-    color: #f3e8ff;
-    background-color: rgba(255, 145, 145, 0.246);
+    background-color: #f2b7803a;
+    color: rgb(236, 205, 209);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -151,8 +154,8 @@
     font-family: 'Arima', cursive !important;
   }
 
-  h1 { color: rgb(217, 174, 180); }
-  h2 { color: rgb(218, 178, 201); }
+  h1 { color: #F2B880; }
+  h2 { color: #C98686; }
   h3 { color: rgb(200, 165, 200); }
   h4 { color: rgb(191, 165, 199); }
   h5 { color: rgb(158, 142, 184); }
@@ -233,4 +236,62 @@ body[data-slug$="/index"] .content-meta {
   font-size: 1.2rem;
   line-height: 1.4;
   margin-bottom: 0.3rem;
+}
+/* Fix for popover preview box in dark mode */
+:root[saved-theme="dark"] .popover {
+  background-color: rgba(82, 46, 56, 0.925) !important;  /* match your background */
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+:root[saved-theme="dark"] {
+  .sidebar .site-title,
+  .sidebar .sidebar-header,
+  .sidebar .folder-title,
+  .sidebar .explorer-item{
+    color: #E7CFBC !important;
+  }
+}
+:root[saved-theme="dark"] {
+  h2.page-title a{
+    color : #E7CFBC !important
+  }
+  .darkmode svg,
+  .readermode svg {
+    color: #F2B880  !important;  // Your desired pastel pink
+    stroke: #F2B880  !important; // For outlined icons
+    fill: #F2B880  !important;   // For filled icons
+  }
+}
+:root[saved-theme="dark"]{
+  .folder-icon {
+    stroke: #F2B880 !important;  // pastel pink shade
+  }
+  .explorer .title-button h2 {
+    color: #F2B880 !important; // pastel pink or your chosen color
+  }
+  .search {
+    background-color: #e7cfbc1f; // subtle background
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 1px solid #f2b78041;
+    // margin-top: 1rem;s
+  }
+
+  .search-bar {
+    background-color: transparent;
+    border: none;
+    color: #f2b78041;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .search-bar::placeholder {
+    color: #aaa;
+  }
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1) inset;
 }
