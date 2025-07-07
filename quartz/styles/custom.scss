@@ -130,7 +130,51 @@
     U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
     U+2215, U+FEFF, U+FFFD;
 }
-
+@font-face {
+  font-family: "Linux Libertine";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Linux Libertine"),
+    url("https://fonts.cdnfonts.com/s/282/LinLibertine_Re-4.1_.8_.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Linux Libertine";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Linux Libertine"),
+    url("https://fonts.cdnfonts.com/s/282/LinLibertine_It-4.0_.3_.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Linux Libertine";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Linux Libertine"),
+    url("https://fonts.cdnfonts.com/s/282/LinLibertine_Bd-4.0_.2_.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Linux Libertine";
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local("Linux Libertine"),
+    url("https://fonts.cdnfonts.com/s/282/LinLibertine_BI-4.0_.3_.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Linux Libertine C";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Linux Libertine C"),
+    url("https://fonts.cdnfonts.com/s/282/LinLibertineC_Re-4.0_.1_.woff")
+      format("woff");
+}
 :root[saved-theme="dark"], html[saved-theme="dark"] {
   body {
     font-family: 'Montserrat', sans-serif !important;
@@ -200,20 +244,26 @@ body[data-slug$="/index"] .content-meta {
   --bold-modifier: 200;
 }
 .callout {
-  --callout-blend-mode: var(--highlight-mix-blend-mode);
-  --callout-border-opacity: 0.25;
   --callout-border-width: 1px;
-  --callout-content-background: transparent;
-  --callout-content-padding: 0.5rem 1rem;
-  --callout-radius: var(--radius-s);
+  --callout-radius: 8px;
+  --callout-title-size: 1.05rem;
+  --callout-title-weight: 600;
   --callout-title-color: inherit;
-  --callout-title-size: inherit;
-  --callout-title-weight: calc(var(--font-weight) + var(--bold-modifier));
-  border-left: var(--callout-border-width) solid rgba(var(--callout-color), var(--callout-border-opacity));
-  background-color: rgba(var(--callout-color), 0.15);
+
+  border: var(--callout-border-width) solid rgba(var(--callout-color), 0.35);
+  background-color: rgba(var(--callout-color), 0.08); // soft transparent bg
   border-radius: var(--callout-radius);
-  padding: var(--callout-content-padding);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
 }
+
+.callout-title-inner p {
+  font-size: var(--callout-title-size);
+  font-weight: var(--callout-title-weight);
+  margin: 0 0 0.5rem 0;
+  color: var(--callout-title-color);
+}
+
 
 /* Variants */
 .callout[data-callout="info"]       { --callout-color: var(--color-blue-rgb); }
@@ -222,7 +272,7 @@ body[data-slug$="/index"] .content-meta {
 .callout[data-callout="danger"]     { --callout-color: var(--color-red-rgb); }
 .callout[data-callout="success"]    { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="question"]   { --callout-color: var(--color-orange-rgb); }
-.callout[data-callout="quote"]      { --callout-color: 158, 158, 158; }
+.callout[data-callout="quote"]      { --callout-color: 231, 207, 188 }
 .callout[data-callout="abstract"]   { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="summary"]    { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="todo"]       { --callout-color: var(--color-blue-rgb); }
@@ -231,11 +281,12 @@ body[data-slug$="/index"] .content-meta {
 .callout[data-callout="important"]  { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="bug"]        { --callout-color: var(--color-pink-rgb); }
 
-.callout-title-inner p {
+.callout-title p {
   font-weight: 1000 !important;
   font-size: 1.2rem;
   line-height: 1.4;
   margin-bottom: 0.3rem;
+  // color: #F2B880 !important;
 }
 /* Fix for popover preview box in dark mode */
 :root[saved-theme="dark"] .popover {
