@@ -20,11 +20,21 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "custom",
+      customFonts: [
+        {
+          name: "Linux Libertine",
+          src: "https://cdn.jsdelivr.net/npm/linlibertine-font@5.3.0/css/LinLibertine.css",
+        },
+        {
+          name: "Arima",
+          src: "https://fonts.googleapis.com/css2?family=Arima&display=swap", // if you're also using Arima
+        }
+      ],
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Arima", // or keep Schibsted Grotesk if you prefer
+        body: "Linux Libertine",
         code: "IBM Plex Mono",
       },
       colors: {

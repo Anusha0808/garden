@@ -202,7 +202,7 @@ body[data-slug$="/index"] .content-meta {
 .callout {
   --callout-blend-mode: var(--highlight-mix-blend-mode);
   --callout-border-opacity: 0.25;
-  --callout-border-width: 2px;
+  --callout-border-width: 1px;
   --callout-content-background: transparent;
   --callout-content-padding: 0.5rem 1rem;
   --callout-radius: var(--radius-s);
@@ -294,4 +294,28 @@ body[data-slug$="/index"] .content-meta {
     color: #aaa;
   }
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.1) inset;
+}
+
+
+// RIGHT SIDEBAR
+
+/* Right Sidebar Font Color (Dark Mode) */
+:root[saved-theme="dark"], html[saved-theme="dark"] {
+  .right.sidebar {
+    color: #f2d5da; /* soft pinkish-white or choose your preferred color */
+    background-color: #3a2027dc !important; 
+  }
+
+  .right.sidebar h3 {
+    color: #F2B880; /* title headings like "Graph View", "Table of Contents" */
+  }
+
+  .right.sidebar a {
+    color: #E7CFBC; /* link text color */
+    font-family: 'Arima', sans-serif !important;
+  }
+
+  .right.sidebar a:hover {
+    color: #fff; /* hover effect */
+  }
 }
