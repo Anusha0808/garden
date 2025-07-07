@@ -1,8 +1,5 @@
 ---
-title: Welcome!!
-tags:
-  - introduction
-  - garden
+title: Welcome To Anusha's Garden
 ---
 
 This is Anusha, and welcome to my little [[Digital Garden]]!
