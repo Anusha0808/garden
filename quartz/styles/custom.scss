@@ -175,6 +175,14 @@
     url("https://fonts.cdnfonts.com/s/282/LinLibertineC_Re-4.0_.1_.woff")
       format("woff");
 }
+:root[saved-theme="light"], html[saved-theme="light"] {
+  body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #E7CFBC;
+    font-size: 1.05rem;
+
+  }
+}
 :root[saved-theme="dark"], html[saved-theme="dark"] {
   body {
     font-family: 'Montserrat', sans-serif !important;
@@ -282,8 +290,8 @@ body[data-slug$="/index"] .content-meta {
 .callout[data-callout="bug"]        { --callout-color: var(--color-pink-rgb); }
 
 .callout-title p {
-  font-weight: 1000 !important;
-  font-size: 1.2rem;
+  font-weight: 700 !important;
+  font-size: 1rem;
   line-height: 1.4;
   margin-bottom: 0.3rem;
   // color: #F2B880 !important;
