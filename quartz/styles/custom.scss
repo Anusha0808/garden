@@ -183,10 +183,63 @@
 
   }
 }
+:root[saved-theme="dark"], html[saved-theme="dark"] {
+  body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #FFF4EC;
+    font-size: 1.05rem;
 
-// ===================
-// Theme Variables
-// ===================
+  }
+
+  a.internal:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+  }
+
+  a.internal {
+  background-color: rgba(245, 222, 179, 0.25); // warm beige
+  color: #f3d1d6;
+}
+
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Arima', cursive !important;
+  }
+
+  h1 { color: #F2B880; }
+  h2 { color: #C98686; }
+  h3 { color: rgb(200, 165, 200); }
+  h4 { color: rgb(191, 165, 199); }
+  h5 { color: rgb(158, 142, 184); }
+  h6 { color: rgb(156, 156, 190); }
+
+  html, body {
+    background-color: #522e38 !important;
+    line-height : 1.6;
+  }
+
+}
+
+.article-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Hide metadata on the homepage */
+body[data-slug="index"] .content-meta {
+  display: none !important;
+}
+
+/* Hide metadata on folder index pages */
+body[data-slug$="/index"] .content-meta {
+  display: none !important;
+}
+// CALLOUTS
+
 :root {
   --color-blue-rgb: 37, 99, 235;
   --color-orange-rgb: 245, 158, 11;
@@ -200,140 +253,36 @@
   --font-weight: 500;
   --bold-modifier: 200;
 }
-
-// ===================
-// Dark Mode Styles
-// ===================
-:root[saved-theme="dark"],
-html[saved-theme="dark"] {
-  html,
-  body {
-    background-color: #522e38 !important;
-    font-family: 'Montserrat', sans-serif !important;
-    color: #f5f5f5; // body text color
-    font-size: 1.05rem;
-  }
-
-  // Typography
-  h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    font-family: 'Arima', cursive !important;
-  }
-
-  h1 { color: rgb(217, 174, 180); }
-  h2 { color: rgb(218, 178, 201); }
-  h3 { color: rgb(200, 165, 200); }
-  h4 { color: rgb(191, 165, 199); }
-  h5 { color: rgb(158, 142, 184); }
-  h6 { color: rgb(156, 156, 190); }
-
-  // Pill Links
-  a.internal {
-    background-color: #f8f8f823;
-    color: rgb(217, 174, 180);
-    &:hover {
-      transform: scale(1.03);
-      transition: all 0.2s ease;
-    }
-  }
-
-  // Article Title
-  .article-title {
-    font-size: 2.25rem;
-    font-weight: 700;
-    font-family: 'Arima', cursive;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  // Explorer Sidebar
-  .page-title a {
-    color: #f8d9dc !important;
-  }
-
-  .folder-title {
-    color: #dfc4cb !important;
-  }
-
-  .explorer h2 {
-    color: #f7cfd7;
-  }
-
-  // Search Box
-  .search {
-    border: 1px solid #d4b0b5;
-    border-radius: 8px;
-    padding: 0.25rem;
-    background-color: rgba(255, 255, 255, 0.03);
-  }
-
-  // Right Sidebar TOC & Graph
-  .right.sidebar,
-  .toc,
-  .graph {
-    color: #f0dfe6;
-  }
-
-  // Body Text Highlight
-  mark {
-    background-color: rgba(255, 255, 150, 0.2);
-    color: #fff8b3;
-  }
-  // Callout Title Text
-  .callout-title-inner p {
-    font-weight: 800 !important;
-    font-size: 1.15rem;
-    line-height: 1.4;
-    margin-bottom: 0.3rem;
-    color: #ffedf0 !important;
-  }
-
-  .callout-icon {
-    background-color: #fff8f0 !important;
-  }
-
-  /* Fix for popover preview box in dark mode */
-  .popover {
-    background-color: rgba(82, 46, 56, 0.925) !important;  /* match your background */
-    color: white !important;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  }
-
-}
-
-// ===================
-// Callout Styles
-// ===================
 .callout {
-  --callout-blend-mode: var(--highlight-mix-blend-mode);
-  --callout-border-opacity: 0.25;
   --callout-border-width: 1px;
-  --callout-content-background: transparent;
-  --callout-content-padding: 0.5rem 1rem;
-  --callout-radius: var(--radius-s);
+  --callout-radius: 8px;
+  --callout-title-size: 1.05rem;
+  --callout-title-weight: 600;
   --callout-title-color: inherit;
-  --callout-title-size: inherit;
-  --callout-title-weight: calc(var(--font-weight) + var(--bold-modifier));
 
-  border: 1px solid rgba(var(--callout-color), var(--callout-border-opacity));
-  background-color: rgba(var(--callout-color), 0.08);
+  border: var(--callout-border-width) solid rgba(var(--callout-color), 0.35);
+  background-color: rgba(var(--callout-color), 0.08); // soft transparent bg
   border-radius: var(--callout-radius);
-  padding: var(--callout-content-padding);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.callout-title-inner p {
+  font-size: var(--callout-title-size);
+  font-weight: var(--callout-title-weight);
+  margin: 0 0 0.5rem 0;
+  color: var(--callout-title-color);
 }
 
 
-
-// Callout Variants
+/* Variants */
 .callout[data-callout="info"]       { --callout-color: var(--color-blue-rgb); }
 .callout[data-callout="warning"]    { --callout-color: var(--color-orange-rgb); }
 .callout[data-callout="tip"]        { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="danger"]     { --callout-color: var(--color-red-rgb); }
 .callout[data-callout="success"]    { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="question"]   { --callout-color: var(--color-orange-rgb); }
-.callout[data-callout="quote"]      { --callout-color: 158, 158, 158; }
+.callout[data-callout="quote"]      { --callout-color: 210, 180, 140; }
 .callout[data-callout="abstract"]   { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="summary"]    { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="todo"]       { --callout-color: var(--color-blue-rgb); }
@@ -342,19 +291,98 @@ html[saved-theme="dark"] {
 .callout[data-callout="important"]  { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="bug"]        { --callout-color: var(--color-pink-rgb); }
 
-// ===================
-// Page Metadata Hiding
-// ===================
-body[data-slug="index"] .content-meta,
-body[data-slug$="/index"] .content-meta {
-  display: none !important;
+
+/* Fix for popover preview box in dark mode */
+:root[saved-theme="dark"] .popover {
+  background-color: rgba(82, 46, 56, 0.925) !important;  /* match your background */
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-// Transparent card containers
-.page,
-.article-card,
-.content-container {
-  background-color: transparent !important;
+:root[saved-theme="dark"] {
+  .sidebar .site-title,
+  .sidebar .sidebar-header,
+  .sidebar .folder-title,
+  .sidebar .explorer-item{
+    color: #E7CFBC !important;
+  }
+  .callout-title p {
+  font-weight: 700 !important;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+  color: #faebd7 !important;
+  }
+  .callout-title .callout-icon {
+  color: #f5d8b8 !important; /* Soft warm beige */
+  }
+}
+:root[saved-theme="dark"] {
+  h2.page-title a{
+    color : #E7CFBC !important
+  }
+  .darkmode svg,
+  .readermode svg {
+    color: #F2B880  !important;  // Your desired pastel pink
+    stroke: #F2B880  !important; // For outlined icons
+    fill: #F2B880  !important;   // For filled icons
+  }
+}
+:root[saved-theme="dark"]{
+  .folder-icon {
+    stroke: #F2B880 !important;  // pastel pink shade
+  }
+  .explorer .title-button h2 {
+    color: #F2B880 !important; // pastel pink or your chosen color
+  }
+  .search {
+    background-color: #e7cfbc1f; // subtle background
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 1px solid #f2b78041;
+    // margin-top: 1rem;s
+  }
+
+  .search-bar {
+    background-color: transparent;
+    border: none;
+    color: #f2b78041;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .search-bar::placeholder {
+    color: #aaa;
+  }
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1) inset;
+}
+
+
+// RIGHT SIDEBAR
+
+/* Right Sidebar Font Color (Dark Mode) */
+:root[saved-theme="dark"], html[saved-theme="dark"] {
+  .right.sidebar {
+    color: #f2d5da; /* soft pinkish-white or choose your preferred color */
+    background-color: #3a2027dc !important; 
+  }
+
+  .right.sidebar h3 {
+    color: #F2B880; /* title headings like "Graph View", "Table of Contents" */
+  }
+
+  .right.sidebar a {
+    color: #E7CFBC; /* link text color */
+    font-family: 'Arima', sans-serif !important;
+  }
+
+  .right.sidebar a:hover {
+    color: #fff; /* hover effect */
+  }
 }
 
 .center {
