@@ -5,7 +5,7 @@ title: Welcome To Anusha's Garden
 This is Anusha, and welcome to my little [[Digital Garden]]!
 (and here you can find [[my quirkier non professional introduction]])
 
-## my interests
+## 🌸 my interests 🌸
 
 I am interested in Theoretical Computer Science, and am currently exploring and reading about [[Games on Graphs]], [[Proofs and Types]] and [[Graph Theory]].
 
@@ -18,7 +18,7 @@ Although I do not understand anything about [[Finite Model Theory]] yet, still s
 
 Here you are gonna find a collection of random dumps on things that interests me. Usually when I learn about something, I jot down my thinking process through it. Now, I have decided to publicize them, so do not expect all of them to be polished and refined. But, I tag the ones that are nicely written, and much more comprehensive.
 
-## A little bit about myself
+## A little bit about myself 
 
 I am a third year student at [[Chennai Mathematical Institute]], and I am doing Bachelors in Mathematics and Theoretical Computer Science.
 
