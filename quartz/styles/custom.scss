@@ -320,26 +320,32 @@ body[data-slug$="/index"] .content-meta {
   color: #f5d8b8 !important; /* Soft warm beige */
   }
 }
+
+// LEFT SIDEBAR PAGE TITLE
 :root[saved-theme="dark"] {
   h2.page-title a{
     color : #E7CFBC !important
   }
   .darkmode svg,
   .readermode svg {
-    color: #F2B880  !important;  // Your desired pastel pink
-    stroke: #F2B880  !important; // For outlined icons
-    fill: #F2B880  !important;   // For filled icons
+    color: #F2B880  !important;
+    stroke: #F2B880  !important;
+    fill: #F2B880  !important;
   }
 }
+
+// ===========================
+// LEFT SIDEBAR 
+// =============================
 :root[saved-theme="dark"]{
   .folder-icon {
-    stroke: #F2B880 !important;  // pastel pink shade
+    stroke: #F2B880 !important;
   }
   .explorer .title-button h2 {
-    color: #F2B880 !important; // pastel pink or your chosen color
+    color: #F2B880 !important;
   }
   .search {
-    background-color: #e7cfbc1f; // subtle background
+    background-color: #e7cfbc1f;
     padding: 0.3rem;
     border-radius: 8px;
     border: 1px solid #f2b78041;
@@ -382,6 +388,10 @@ body[data-slug$="/index"] .content-meta {
 
   .right.sidebar a:hover {
     color: #fff; /* hover effect */
+  }
+  code, .code, .inline-code {
+  background-color: #f5deb3a8;
+  color: #3b2f2f;            // dark text for good contrast
   }
 }
 
