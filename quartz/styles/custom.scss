@@ -276,14 +276,14 @@ body[data-slug$="/index"] .content-meta {
 
 
 /* Variants */
-.callout[data-callout="info"]       { --callout-color: var(--color-blue-rgb); }
+.callout[data-callout="info"]       { --callout-color: 58, 32 39; }
 .callout[data-callout="warning"]    { --callout-color: var(--color-orange-rgb); }
 .callout[data-callout="tip"]        { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="danger"]     { --callout-color: var(--color-red-rgb); }
 .callout[data-callout="success"]    { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="question"]   { --callout-color: var(--color-orange-rgb); }
 .callout[data-callout="quote"]      { --callout-color: 210, 180, 140; }
-.callout[data-callout="abstract"]   { --callout-color: var(--color-green-rgb); }
+.callout[data-callout="abstract"]   { --callout-color: 58, 32 39; }
 .callout[data-callout="summary"]    { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="todo"]       { --callout-color: var(--color-blue-rgb); }
 .callout[data-callout="example"]    { --callout-color: var(--color-purple-rgb); }
