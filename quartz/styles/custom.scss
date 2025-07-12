@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss";
 // @use "./themes/index";
 /* greek-ext */
 @font-face {
@@ -202,17 +203,37 @@
 }
 
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5 {
     text-align: center;
     font-family: 'Arima', cursive !important;
   }
+  h6 {
+    font-family: 'Arima', cursive !important;
+    font-variant: small-caps;
+    font-size: 1.15rem;
+    color: #e7cfbc; // Adjust this to match your palette
+    letter-spacing: 0.05em;
 
-  h1 { color: #F2B880; }
-  h2 { color: #C98686; }
+  span.highlight {
+    color: #AEE3F5; // Light blue/cyan tint for emphasis
+    font-weight: 300;
+  }
+
+  &::first-letter {
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+}
+
+  h1 { 
+    color: #F2B880;
+    font-size:1.8rem; }
+  h2 { color: #C98686;
+    font-size: 1.5rem;}
   h3 { color: rgb(200, 165, 200); }
   h4 { color: rgb(191, 165, 199); }
   h5 { color: rgb(158, 142, 184); }
-  h6 { color: rgb(156, 156, 190); }
+  // h6 { color: rgb(156, 156, 190); }
 
   html, body {
     background-color: #522e38 !important;
@@ -229,15 +250,6 @@
   margin-bottom: 1rem;
 }
 
-/* Hide metadata on the homepage */
-body[data-slug="index"] .content-meta {
-  display: none !important;
-}
-
-/* Hide metadata on folder index pages */
-body[data-slug$="/index"] .content-meta {
-  display: none !important;
-}
 // CALLOUTS
 
 :root {
@@ -261,7 +273,7 @@ body[data-slug$="/index"] .content-meta {
   --callout-title-color: inherit;
 
   border: var(--callout-border-width) solid rgba(var(--callout-color), 0.35);
-  background-color: rgba(var(--callout-color), 0.08); // soft transparent bg
+  background-color: rgba(var(--callout-color), 0.4); // soft transparent bg
   border-radius: var(--callout-radius);
   padding: 0.75rem 1rem;
   margin: 1rem 0;
@@ -283,7 +295,7 @@ body[data-slug$="/index"] .content-meta {
 .callout[data-callout="success"]    { --callout-color: var(--color-green-rgb); }
 .callout[data-callout="question"]   { --callout-color: var(--color-orange-rgb); }
 .callout[data-callout="quote"]      { --callout-color: 210, 180, 140; }
-.callout[data-callout="abstract"]   { --callout-color: 58, 32 39; }
+.callout[data-callout="abstract"]   { --callout-color: 61, 34, 42; }
 .callout[data-callout="summary"]    { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="todo"]       { --callout-color: var(--color-blue-rgb); }
 .callout[data-callout="example"]    { --callout-color: var(--color-purple-rgb); }
@@ -389,10 +401,10 @@ body[data-slug$="/index"] .content-meta {
   .right.sidebar a:hover {
     color: #fff; /* hover effect */
   }
-  code, .code, .inline-code {
-  background-color: #f5deb3a8;
-  color: #3b2f2f;            // dark text for good contrast
-  }
+  // code, .code, .inline-code {
+  // background-color: #f5deb3a8;
+  // color: #3b2f2f;            // dark text for good contrast
+  // }
 }
 
 .center {
@@ -402,5 +414,38 @@ body[data-slug$="/index"] .content-meta {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+.page p {
+  white-space: pre-line !important;
+}
+/* If you want inline code (`like this`) to be different */
+code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.2rem;
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+}
+
+pre {
+  background-color: rgba(0, 0, 0, 0.2);  /* subtle contrast from page */
+  color: #f8f8f2;  /* light text for readability */
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);  /* soft border */
+  border-radius: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+blockquote {
+  // font-family:  "Linux Libertine" !important;
+  background-color: rgba(250, 222, 201, 0.08); // warm beige translucent
+  border-left: 3px solid #f4bc9c;              // muted orange-pink
+  //  padding: 0.1rem 0.1rem;
+  border-radius: 6px;
+  margin: 0.25rem 0 1rem 0; // ↓ top | right | bottom | left
+  color: #f0e7e2; // slightly warmer than pure white
 }
 

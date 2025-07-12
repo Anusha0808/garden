@@ -1,9 +1,8 @@
 ---
-title: Welcome To Anusha's Garden
+title: Welcome to my little Digital Garden!
 ---
 
-This is Anusha, and welcome to my little [[Digital Garden]]!
-(and here you can find [[my quirkier non professional introduction]])
+Hi :) This is Anusha. (you can also check out [[my quirkier non professional introduction]])
 
 # 🌸 my interests 🌸
 
