@@ -184,7 +184,22 @@
 
   }
 }
+.article-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: 'Arima', cursive;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 :root[saved-theme="dark"], html[saved-theme="dark"] {
+    .article-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: 'Arima', cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
   body {
     font-family: 'Montserrat', sans-serif !important;
     color: #FFF4EC;
@@ -243,13 +258,6 @@
 
 }
 
-.article-title {
-  font-size: 2.25rem;
-  font-weight: 700;
-  font-family: 'Arima', cursive;
-  text-align: center;
-  margin-bottom: 1rem;
-}
 
 // CALLOUTS
 
@@ -450,3 +458,16 @@ blockquote {
   color: #f0e7e2; // slightly warmer than pure white
 }
 
+/* Hide "X items under this folder" text on folder index pages */
+[data-slug$="/index"] .page-listing > p {
+  display: none !important;
+}
+/* Change font for file names inside folder tree */
+.explorer a {
+  font-family: 'Linux Libertine', sans-serif !important;
+  font-size: 1rem; /* adjust if needed */
+}
+.folder-title {
+  font-size: 1.2rem !important; /* adjust this value as you like */
+  font-weight: 600;   /* optional for better emphasis */
+}

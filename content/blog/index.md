@@ -6,4 +6,5 @@ longform:
   sceneFolder: /
   scenes: []
   ignoredFiles: []
+showAllPages: "false"
 ---
