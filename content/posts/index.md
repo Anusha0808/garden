@@ -7,8 +7,3 @@ longform:
   scenes: []
   ignoredFiles: []
 ---
-# Track A 
-
-# Track B
-- [[Propositional Logic]]
-- 

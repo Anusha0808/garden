@@ -4,6 +4,15 @@ draft: false
 tags:
   - logic
 ---
+## Definitions
+### What is a proposition?
+A proposition is a *"declarative sentence that is either true or false"*.
+For example - questions and commands are not propositions
+
+>[!caution] A proposition might also be called a statement
+
+### Atomic Propositions
+A statement/proposition is called atomic, if it has no connectives or quantifiers. It is called compound otherwise.
 ## Syntax
 infinite set of atomic propositions $\mathbb{P}= \{ p_{0}, p_{1}, ..\}$
 Two logical connectives ¬ (not) and $\vee$ (or)
@@ -43,8 +52,7 @@ Shorter solution? I do not have it right now.
 ## Satisfiability and Validity
 A formula $α$ is said to be satisﬁable if there is a valuation v such that $v(α) = ⊤$. We write $v ⊨ α$ to indicate that $v(α) = ⊤$.
 The formula α is said to be valid if $v ⊨ α$ for every valuation v. We write $⊨ α$
-to indicate that α is valid. We also refer to valid formulas of propositional logic as _tautologies_.
-
+to indicate that α is valid. We also refer to valid formulas of propositional logic as [[Tautology and Contradictions|tautologies]]
 ###### Proposition 
 ```
 Let α be a formula. α is valid iﬀ ¬α is not satisﬁable.
@@ -76,10 +84,28 @@ Axiom Schemes:
 The first three axioms are _tautologies_ 
 
 ## Compactness and Strong Completeness
-> [!abstract] Logical Consequence
+
+> [!important] Logical Consequence
 >  Let X be a set of formulas and v be a valuation. We write $v \models X$ to denote $v \models \beta$ for every formula $\beta \in X$. A formula α is a logical consequence of X , written $X ⊨ α$, if for every valuation v such that $v ⊨ X$ it is also the case that $v ⊨ α$
 
 
-> [!abstract]  Derivability
-> Let X be a set of formulas and v be a valuation. We write $v \models \beta$ if there exists a sequence $\alpha_1, \alpha_2 , .. , \alpha_n$ of formulas such that $\alpha_n = \alpha$ and for $i \in \{1,2,..,n\}$, $\alpha_i$ is either a member of X , or an instance of one of the axioms of AX, or is derived from $α_j , α_k , j , k < i$ , using the inference rule MP.
+> [!important]  Derivability
+> Let X be a set of formulas and v be a valuation. We say that a formula α is derivable from X, written $v \vdash \beta$ if there exists a sequence $\alpha_1, \alpha_2 , .. , \alpha_n$ of formulas such that $\alpha_n = \alpha$ and for $i \in \{1,2,..,n\}$, $\alpha_i$ is either a member of X , or an instance of one of the axioms of AX, or is derived from $α_j , α_k , j , k < i$ , using the inference rule MP.
 
+ Motivation for $X$ and Logical Consequence
+> It is possible that sometimes are not concerned if a given logical formula $\alpha$ is always true, rather we might be interested that if under some circumstances, $\alpha$ is true.
+> In this situation, we can represent these "circumstances" or "constraints" using a set of formulas $X$. And now we can ask under $X$ and a valuation $v$, can $\alpha$ be true? 
+
+
+$X \models \alpha$ : *$\alpha$ is a logical consequence of X*
+$X \vdash \alpha$ : *$\alpha$ is derivable from X*
+
+### Theorem: Strong Completeness
+>Let $X \subseteq \phi$ and $\alpha \in \phi$, Then $X \models \alpha$ iff $X \vdash \alpha$
+
+
+# Good Resources to check this?
+
+
+- [[https://www.logicinaction.org/|Logic in Action]] : Need to test this
+- 
