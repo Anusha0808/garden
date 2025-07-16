@@ -3,7 +3,7 @@ title: Paintings
 draft: false
 tags: []
 ---
-I love painting! I paint primarily in acrylics during my school days. Besides acrylics, I also enjoy working with watercolors! I do not like sketching or drawing that much, and my favorite part is just dumping paint onto the canvas and playing around with the brushes. 
+I love painting! I paint primarily in acrylics. Besides acrylics, I also enjoy working with watercolors! I do not like sketching or drawing that much, and my favorite part is just dumping paint onto the canvas and playing around with the brushes. 
 
 I do not like to clean the palette after painting because I just love how it looks with all different kinds of colors mixed in, giving rise to new beautiful shades on its own! 
 

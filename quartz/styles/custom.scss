@@ -414,6 +414,16 @@
   // background-color: #f5deb3a8;
   // color: #3b2f2f;            // dark text for good contrast
   // }
+  ::selection {
+    background: #f2b7803f;
+    color: #ffffff;
+  }
+
+  ::-moz-selection {
+    background: #f2b7803f;
+    color: #ffffff;
+  }
+
 }
 
 .center {

@@ -8,7 +8,7 @@ tags:
 ###### Discrete Bidding Games *(May 2025- present)*
 > Working Under Prof Guy Avni and Suman Sadhukhan
 
-###### Computing Maximum Matching of Bipartite Graphs in NC *(May 2024 - July 2024)*
+###### The dynamic complexity of maximum matching *(May 2024 - July 2024)*
 >Supervised by Prof. Samir Datta.
 > Explored Lovasz and Plummer’s book ”Matching Theory”, Gallai Edmond’s Decomposition and Algorithm, Ear Decomposition
 
