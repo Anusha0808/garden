@@ -21,8 +21,45 @@ The set of terms over $L$ is the smallest set satisfying the following condition
 
 A term which does not contain any variables is called a closed term.
 
+Think of a term as a name.
+
+>[!info] Expressions
+>Any finite sequence of elements of L and basic symbols (connectives, quantifiers) forms an expression. 
+>Terms are meaningful expressions,
+
 ## Atomic formulas
 - Let $r \in R, \#(r)=n$ and let $t_1, .., t_n$ be terms over L. Then $r(t_1, .., t_n)$ is an atomic formula.
 - Let $t_1, t_2$ terms over L. Then $t_1 \equiv t_2$ is an atomic formula
 
-Second type of atomic formula asserts that 
+Second type of atomic formula asserts that these two terms/names are equivalent.
+
+Relation symbols are also called predicates.
+So atomic formulas act as atomic propositions or basic facts about the first order logic. A relation $r(t_1, .., t_n)$ will be either true or false after some structure is given to the first order language. Similarly, $t_1 \equiv t_2$ will be either true or false.
+
+So atomic formulas, in an essence, capture how the terms are/can be related to each other in our language. For example, a relation symbol could be $married$ with arity two. It takes in 2 names and tells if they are married. 
+
+## Structures
+A structure for $L$ is a pair $\mathfrak{M} = <M, F>$ where $M$ is a non empty set and $F$ is an operation with domain $L$ such that, writing $x^{\mathfrak{M}} := F(x)$:
+-  $x=R$ , n-ary, then $M^n \supseteq R^{\mathfrak{M}}$  
+- $x=f$ , n-ary, then $f^{\mathfrak{M}}: M^n \rightarrow M$  
+- $x=c$ then $c^{\mathfrak{M}} \in M$
+
+So , the predicates/relation symbols get assigned the proper "elements" that constitute each relation.
+The functions are also made precise, that is, proper definition is given to each function because of the structure.
+And the constants are given their values.
+
+### Assignment $\sigma$
+An assignment in $\mathfrak{M}$ is a function with the domain set of variables of $L$ and range a subset of $M$.
+## First order Formulas
+They form the smallest set of expressions containing the atomic formulas and closed under the following formation rules:
+>Formation rules
+>If $\phi , \psi$ are formulas , $v$ variable
+>i) the expressions $\lnot \phi, (\phi \land \psi), (\phi \lor \psi) , (\phi \rightarrow \psi)$ are also formulas.
+>ii) $(\exists v \phi), (\forall v \phi)$ are also formulas.
+
+We associate parantheses to the right in strings where the sane symbol is repeated. (right associativity within same symbols)
+
+
+### First Order sentence
+A formula without any free variables.
+
