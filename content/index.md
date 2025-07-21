@@ -18,10 +18,10 @@ Although I do not understand anything about [[Finite Model Theory]] yet, still s
 
 Here you will find a collection of random dumps on things that interests me. %% Usually when I learn about something, I jot down my thinking process through it. Now, I have decided to publicize them, so do not expect all of them to be polished and refined. But, I tag the ones that are nicely written, and much more comprehensive.
  %%
-Not all of them are polished and refined,  but I have tagged the ones that are nicely written, and much more comprehensive.
+Not all of them are polished and refined, but I have tagged the ones that are nicely written, and much more comprehensive.
 
 # about myself 
 
 I am a third year student at [[Chennai Mathematical Institute]], and I am doing Bachelors in Mathematics and Theoretical Computer Science.
 
-Before my university, I was [[lost]] and then found by [Informatics Olympiad](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics?useskin=vector), which became my home and niche for roughly a year and a half. During this time, I also got a chance to be in India's team for [[European Girls Olympiad in Informatics 2023]], and grabbed a bronze.
+Before my university, I was [[lost]] and then found by [Informatics Olympiad](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics?useskin=vector), which became my home and niche for roughly a year and a half. During this time, I also got a chance to be in India's team for [[European Girls Olympiad In Informatics (EGOI)]] in 2023, and grabbed a bronze.

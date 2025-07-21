@@ -1,5 +1,5 @@
 ---
-title: What do Intuitionists think?
+title: What do intuitionists think?
 draft: false
 tags:
   - logic

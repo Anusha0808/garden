@@ -63,3 +63,10 @@ We associate parantheses to the right in strings where the sane symbol is repeat
 ### First Order sentence
 A formula without any free variables.
 
+## Satisfaction
+Let $\mathfrak{M}$ be an $L$ structure. We define the relation 
+$$
+\mathfrak{M} \models \phi[s]
+$$
+(to be read as : the assignment $s$ satisfies the formula $\phi$ in $\mathfrak{M}$) for all assignments s and for all formulas $\phi$ as follows:
+> i) $\mathfrak{M} \models (t_1 \equiv t_2) \text{ iff } t_1^{\mathfrak{M}}(s) = t_2^{\mathfrak{M}}(s)$ 
