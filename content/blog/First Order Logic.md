@@ -3,6 +3,7 @@ title: First Order Logic
 draft: false
 tags:
   - logic
+date: 12 July, 2025
 ---
 ## First Order Languages
 It is a triple $L = (R,F,C)$ where 

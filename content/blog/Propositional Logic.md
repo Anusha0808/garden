@@ -3,6 +3,7 @@ title: Propositional Logic
 draft: false
 tags:
   - logic
+date: 12 July, 2025
 ---
 ## Definitions
 ### What is a proposition?

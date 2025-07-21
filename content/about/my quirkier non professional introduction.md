@@ -1,7 +1,8 @@
 ---
 title: my quirkier non professional introduction
 draft: false
-tags:
+tags: 
+date: May 31, 2025
 ---
 
 Thank you for stumbling upon Anusha's [[Digital Garden]], with a cool [[pond/index|pond]]. You won't find rocks here, even though you stumbled to get here, but you can find some [[Slides]].

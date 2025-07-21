@@ -1,5 +1,6 @@
 ---
 title: Welcome to my little Digital Garden!
+date: 30 May, 2025
 ---
 
 Hi :) This is Anusha. (you can also check out [[my quirkier non professional introduction]])

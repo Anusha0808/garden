@@ -4,6 +4,7 @@ draft: false
 tags:
   - logic
   - history
+date: 12 July, 2025
 ---
 ## Aristotle
 - provided the first systematic written treatment of logic

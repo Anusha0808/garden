@@ -3,6 +3,7 @@ title: What do intuitionists think?
 draft: false
 tags:
   - logic
+date: 16 July, 2025
 ---
 They think that we should not be able to go from something "not" being the case , to being something 'is" the case.
 That is, $$\lnot \lnot A \not \implies A$$

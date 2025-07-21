@@ -3,6 +3,7 @@ title: Tautology and Contradictions
 draft: false
 tags:
   - logic
+date: 12 July, 2025
 ---
 >[!question] What is a Tautology?
 >A statement P is called a tautology or law of propositional logic if there is a set of substatements of P such that:
