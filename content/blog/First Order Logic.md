@@ -71,3 +71,19 @@ $$
 $$
 (to be read as : the assignment $s$ satisfies the formula $\phi$ in $\mathfrak{M}$) for all assignments s and for all formulas $\phi$ as follows:
 > i) $\mathfrak{M} \models (t_1 \equiv t_2) \text{ iff } t_1^{\mathfrak{M}}(s) = t_2^{\mathfrak{M}}(s)$ 
+# From Propositional Logic to First Order Logic
+
+In Propositional Logic, we have atomic propositions, and the assignment of truth values is to these atomic props.
+Whereas, in FOL, we have a lot of structure first. We start with any set, which we call our universe of discourse or universe of discussion. Note that - this set is not the set of atomic propositions. It can be any set of objects, for example - natural numbers. We then have functions on this set. This is how we give this set some structure. In these functions also we do not have any truth assignment yet. We have not talked about any truth or falsity till now. We are just giving it some structure. 
+
+We also have a set of variables and constants.  These constants ( as the name suggests ) are concrete elements from our universe of discourse and they do not change.
+
+Now, we will talk about relations.
+This is where truth assignment comes in "indirectly". We have a bunch of relation "names", and each relation name is a subset of $U^n$ for a fixed n, where U is our universe of discourse.
+
+Note that relations make up the set of atomic formulas which do not contain the equality symbol.
+Since we do not have atomic props, we can see atomic formulas kind of taking up the role of atomic props.
+
+We can make more formulas using variables,
+In propositional logic, we consider assignments. Assignments of what? assignments of the truth values to the atomic props. Here, we consider assignment of variables to the elements of the universe. 
+

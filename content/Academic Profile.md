@@ -1,5 +1,5 @@
 ---
-title: digital cv
+title: Academic Profile
 draft: false
 tags:
   - "#cv"
@@ -10,7 +10,7 @@ tags:
 
 ###### The dynamic complexity of maximum matching *(May 2024 - July 2024)*
 >Supervised by Prof. Samir Datta.
-> Explored Lovasz and Plummer’s book ”Matching Theory”, Gallai Edmond’s Decomposition and Algorithm, Ear Decomposition
+>Explored Lovasz and Plummer’s book ”Matching Theory”, Gallai Edmond’s Decomposition and Algorithm, Ear Decomposition
 
 ## EDUCATION 
 ###### Chennai Mathematical Institute :                                                                       *2023- 2026 (expected)*

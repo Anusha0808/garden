@@ -26,6 +26,8 @@ $$
 \text{double negation elimination} \iff \text{assuming law of excluded middle}
 $$
 
+
 ## inspiration taken from:
 https://youtu.be/y2M5BuXoGlg?si=b3TlpjsDqgFhYa-a by Attic Philosophy. 
 A wonderful, wonderful introduction to intuitionistic logic! And an amazing channel for logic and philosophy!
+ 
