@@ -27,7 +27,15 @@ tags:
 - Logic ( Classical Logic, [[What do intuitionists think?|Intuitionistic Logic]], [[Modal Logic]] )
 - Games on Graphs ( Parity Games, Bidding Games, EF Games )
 - [[Proofs and Types]]
-- Want to read up Finite Model Theory
+- Want to read up Finite Model Theory, Epistemic Logic, and more on how Logic connects with Philosophy and Linguistics
+
+## SCIENTIFIC ENGAGEMENT
+- **Teaching Assistant** 
+  
+  Theory Of Computation, Aug - Nov 2025 
+- **Modal Logic Reading Group** 
+  
+  Organize weekly one hour reading group on Modal logic, Oct 2025 - present
 ## COURSES TAKEN  
 <table>
   <thead>
@@ -95,13 +103,6 @@ tags:
 </tbody>	
 </table>
 
-## SCIENTIFIC ENGAGEMENT
-- **Teaching Assistant** 
-  
-  Theory Of Computation, Aug - Nov 2025 
-- **Modal Logic Reading Group** 
-  
-  Organize weekly one hour reading group on Modal logic, Oct 2025 - present
   
 ## EVENTS & CONFERENCES
 - Selected to attend [**ACM Summer School on Quantum Circuits and Quantum Algorithms**](https://acm-qc-summer-school.gitlab.io/)
