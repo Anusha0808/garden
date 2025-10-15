@@ -10,7 +10,7 @@ I conduct weekly sessions on Modal Logic in my university. On this page, you can
 
 # Resources 
 - [Logic Notes By Prof Madhavan and Prof Suresh from CMI](https://www.cmi.ac.in/~madhavan/papers/pdf/logic-aug2011.pdf) (1)
-- [What If?](https://bd.openlogicproject.org/bd-screen.pdf) Book by openlogicproject which introduces modal logic to people with non mathematical background (2)
+- [Boxes and Diamonds](https://bd.openlogicproject.org/bd-screen.pdf) Book by openlogicproject which introduces modal logic to people with non mathematical background (2)
 - [Possible Worlds: An introduction to Logic and its philosophy](https://www.sfu.ca/~swartz/pw/text/pw_chap01.pdf) 
 - [Modal Fallacy](https://www.sfu.ca/~swartz/modal_fallacy.htm) blog by one of the co-authors of the above book
 - 

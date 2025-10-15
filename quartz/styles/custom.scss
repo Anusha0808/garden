@@ -216,7 +216,7 @@
   background-color: rgba(245, 222, 179, 0.25); // warm beige
   color: #f3d1d6;
 }
-  h3, h4, h5 {
+  h3, h4, h5 , thead{
     font-family: 'Arima', cursive !important;
   }
   h1, h2{
@@ -246,7 +246,7 @@
     font-size:1.8rem; }
   h2 { color: #C98686;
     font-size: 1.5rem;}
-  h3 { color: rgb(200, 165, 200); }
+  h3, thead{ color: rgb(200, 165, 200); }
   h4 { color: rgb(191, 165, 199); }
   h5 { color: rgb(158, 142, 184); }
   // h6 { color: rgb(156, 156, 190); }
