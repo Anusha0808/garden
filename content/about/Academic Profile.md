@@ -25,11 +25,11 @@ tags:
 >Chandigarh, India
 ## INTERESTS 
 - Logic ( Classical Logic, [[What do intuitionists think?|Intuitionistic Logic]], [[Modal Logic]] )
-- Games on Graphs ( Parity Games, Bidding Games, EF Games )
+- [[Games On Graphs]] ( Parity Games, Bidding Games, EF Games )
 - [[Proofs and Types]]
 - Want to read up Finite Model Theory, Epistemic Logic, and more on how Logic connects with Philosophy and Linguistics
 
-## SCIENTIFIC ENGAGEMENT
+## ACADEMIC INVOLVMENT
 - **Teaching Assistant** 
   
   Theory Of Computation, Aug - Nov 2025 
@@ -119,6 +119,7 @@ tags:
 - 2 $\times$ **TESSELLATE STEMS CS HEAD**: *(2024 and 2025)*
   
   STEMS is an exam conducted by the students of CMI for students throughout the country. 
+### Olympiads
 - **European Girls Olympiad in Informatics** (EGOI) : Bronze Medal *(2023)*
 - **Indian National Olympiad in Informatics** : Bronze Medal *(2023)*
 - **EGOI Team Selection Test**, India : 1st position *(2023)*

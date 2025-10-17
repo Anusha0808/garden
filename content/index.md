@@ -6,7 +6,7 @@ date: 30 May, 2025
 Hi :) This is Anusha. (you can also check out [[my quirkier non professional introduction]], [[Academic Profile]])
 # my interests 
 
-I am interested in Theoretical Computer Science, and am currently exploring and reading about Logic, [[Modal Logic]] , Games on Graphs and [[Proofs and Types]].
+I am interested in Theoretical Computer Science, and am currently exploring and reading about Logic, [[Modal Logic]] , [[Games On Graphs]] and [[Proofs and Types]].
 
 I am hoping and planning to study Finite Model Theory, 
 # about myself 
