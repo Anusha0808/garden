@@ -297,7 +297,7 @@
 
 
 /* Variants */
-.callout[data-callout="info"]       { --callout-color: 58, 32 39; }
+.callout[data-callout="info"]       { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="warning"]    { --callout-color: var(--color-orange-rgb); }
 .callout[data-callout="tip"]        { --callout-color: var(--color-cyan-rgb); }
 .callout[data-callout="danger"]     { --callout-color: var(--color-red-rgb); }
