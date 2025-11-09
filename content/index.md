@@ -2,7 +2,8 @@
 title: Welcome to my little Digital Garden!
 date: 30 May, 2025
 ---
-
+<img src="./files/profile-pic.jpg" alt="Profile picture" 
+     style="float: right; margin-left: 1rem; margin-bottom: 1rem; width: 200px; border-radius: 12px; box-shadow: 0 0 15px rgba(255, 200, 200, 0.3);" />
 Hi :) This is Anusha! (you can also check out [[my quirkier non professional introduction]] or my [[Academic Profile]])
 # my interests 
 
