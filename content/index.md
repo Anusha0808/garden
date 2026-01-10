@@ -7,9 +7,11 @@ date: 30 May, 2025
 Hi :) This is Anusha! (you can also check out [[my quirkier non professional introduction]] or my [[Academic Profile]])
 # my interests 
 
-I am interested in Theoretical Computer Science, and am currently exploring and reading about #logic, [[Modal Logic]] , [[Games On Graphs]] and [[Proofs and Types]].
+I am interested in Theoretical Computer Science, and am currently exploring and reading about #logic, Finite Model Theory and Complexity Theory.
 
-I am hoping and planning to study Finite Model Theory, 
+Last year, I enjoyed knowing about Classical Logic, [[Modal Logic]], intuitionistic Logic, [[Games On Graphs]] and [[Proofs and Types]].
+
+I like how "clean" thinking in logic is, and how it makes me look at things in a philosophical manner.  I think I might end up joining the Category Theory cult.
 # about myself 
 
 I am a third year student at [Chennai Mathematical Institute](https://www.cmi.ac.in/), and I am doing Bachelors in Mathematics and Theoretical Computer Science.
