@@ -2,9 +2,9 @@
 title: Godel
 draft: false
 tags:
+  - "#logic"
 date: 5th December, 2025
 ---
-
 # Robinsons arithmetic : Logic Q 
 Intended interpretation : arithmetic over natural numbers
 # Representability in Theory Q 
