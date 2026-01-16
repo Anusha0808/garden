@@ -7,9 +7,9 @@ date: 30 May, 2025
 Hi :) This is Anusha! (you can also check out [[my quirkier non professional introduction]] or my [[Academic Profile]])
 # my interests 
 
-I am interested in Theoretical Computer Science, and am currently exploring and reading about #logic, Finite Model Theory and Complexity Theory.
+I am interested in Theoretical Computer Science, and am currently exploring and reading about #logic, [[Finite Model Theory]] and Complexity Theory.
 
-Last year, I enjoyed knowing about Classical Logic, [[Modal Logic]], intuitionistic Logic, [[Games On Graphs]] and [[Proofs and Types]].
+Last year, I enjoyed knowing about Classical Logic, [[Modal Logic]], [[What do intuitionists think?|intuitionistic Logic]], [[Games On Graphs]] and [[Proofs and Types]].
 
 I like how "clean" thinking in logic is, and how it makes me look at things in a philosophical manner.  I think I might end up joining the Category Theory cult.
 # about myself 
