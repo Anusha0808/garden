@@ -189,14 +189,18 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const height = Math.max(graph.offsetHeight, 250)
 
   // we virtualize the simulation and use pixi to actually render it
-  const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force("charge", forceManyBody().strength(-100 * repelForce))
-    .force("center", forceCenter().strength(centerForce))
-    .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
+      .force("charge", forceManyBody().strength(-100 * repelForce))
+      .force("center", forceCenter().strength(centerForce))
+      .force("link", forceLink(graphData.links).distance(linkDistance).strength(0.7))
+      .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+      .alphaDecay(0.008)
+      .velocityDecay(0.25)
+      .alphaTarget(0.025)
+      .restart()
 
-  const radius = (Math.min(width, height) / 2) * 0.8
-  if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
+    const radius = (Math.min(width, height) / 2) * 0.8
+    if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
 
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
