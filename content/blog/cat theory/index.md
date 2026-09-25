@@ -1,11 +1,10 @@
 ---
 longform:
   format: scenes
-  title: posts
+  title: cat theory
   workflow: Default Workflow
   sceneFolder: /
   scenes: []
   ignoredFiles: []
-showAllPages: "false"
-title: blog
+title: cat theory
 ---

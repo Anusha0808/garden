@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
 /**
  * Quartz 4 Configuration
  *
@@ -23,24 +22,24 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Arima",
+        body: "Montserrat",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#E7CFBC",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#F7F4EF",
+          lightgray: "#DDD7D0",
+          gray: "#9A928A",
+          darkgray: "#514C46",
+          dark: "#292622",
+          secondary: "#80634F",
+          tertiary: "#708B7E",
+          highlight: "rgba(128, 99, 79, 0.12)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#rgb(82, 46,56)",
+          light: "#522E38",
           lightgray: "#E7CFBC",
           gray: "#646464",
           darkgray: "#d4d4d4",
@@ -93,5 +92,4 @@ const config: QuartzConfig = {
     ],
   },
 }
-
 export default config

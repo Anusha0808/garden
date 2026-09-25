@@ -18,7 +18,7 @@ any two paths of length atleast 2 give equations with the same end points
 ## definitions covered
 ### categorical product
 Let C be a category. Let A,B be objects in C. 
-Product if A and B is given by the following
+Product iff A and B is given by the following
 - an object $(A \times B) \in Ob(C)$
 - a pair of morphisms $\pi_1: A \times B \rightarrow A$ and $\pi_2$ called projections
 
