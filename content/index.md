@@ -1,5 +1,5 @@
 ---
-title: MY GARDEN
+title: welcome to my garden
 date: 30 May, 2025
 ---
 <img src="./files/profile-pic.jpg" alt="Profile picture" 
