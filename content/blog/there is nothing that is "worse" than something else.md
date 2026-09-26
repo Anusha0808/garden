@@ -1,6 +1,6 @@
 ---
 title: there is nothing that is "worse" than something else
-draft: true
+draft: false
 tags:
   - "#philosophy"
 date: 10th January, 2026

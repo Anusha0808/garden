@@ -1,6 +1,6 @@
 ---
 title: Interploation
-draft: true
+draft: false
 tags:
 date:
 ---

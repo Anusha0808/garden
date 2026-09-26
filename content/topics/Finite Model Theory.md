@@ -3,6 +3,7 @@ title: Finite Model Theory
 draft: false
 tags:
   - logic
+  - finite-model-theory
 date: 16 Jan, 2026
 ---
 # Resources 

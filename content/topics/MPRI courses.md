@@ -19,38 +19,16 @@ Courses I am interested in taking this year from M2
 | proof assistants                 | 1      | 3    |                           |
 | quantum                          | 1      | 3    | thur                      |
 | proofs of programs               | 2      | 3    | wed                       |
-Period 1:
-cat
-IR
-cat, Knowledge logic
-thur free
-verification
-
-
-
-Period 2: (November - january)
-tues : ir
-
-friday : verification, security
-
-
-
-Period 3:
-probablistic
-ir 3
-solvers 
-
-proof theory?
-
 
 # Foundations of cs 21 ects
-- cat
-- verification 6
-- knowledge logic
-- probabilistic 
+- [[content/topics/cat theory/index|Category Theory]]
+- verification 
+- [[content/topics/knowledge logic/index|knowledge logic]]
+- probabilistic methods of computer science
 - solvers
 - proof theory
+- Algorithms for Information theory
 
 # core topics in computer science
 - security
--  
+-  Approximation and String Algorithms 
